@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Practica1"
+             x:Class="Practica1.MainPage">
+
+    <StackLayout HorizontalOptions="Center">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to first program in the subject!"/>
+        <Button x:Name="Stone" Text="Stone" Clicked="Stone_Clicked"/>
+        <Button x:Name="Paper" Text="Paper" Clicked="Paper_Clicked"/>
+        <Button x:Name="Scissors" Text="Scissor" Clicked="Scissors_Clicked"/>
+
+        <Label x:Name="ShowGame" Text="Winner"/>
+    </StackLayout>
+
+</ContentPage>
